@@ -1,0 +1,9 @@
+@import '_reset.scss';
+
+$color-darkest-gray: #222;
+$color-white: #fff;
+
+body {
+  background-color: $color-darkest-gray;
+  color: $color-white;
+}
