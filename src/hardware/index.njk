@@ -1,0 +1,30 @@
+---
+eleventyExcludeFromCollections: true
+title: Hardware
+description: Hardware listing page baby
+---
+
+{% block pageHeader %}
+--- PAGE (not site) HEADER ---
+{% endblock pageHeader %}
+
+{% block listItems %}
+  {% for hardware in collections.hardware %}
+
+    HARDWARE.URL ==> {{hardware.url}}
+
+    <li><a href="{{ hardware.url }}">{% if page.url == hardware.url %} class="active"{% endif %}{{ hardware.data.title }}</a><br>{{ hardware.data.description }}
+
+    <br>
+    <ul>
+
+    {% for itemTags in hardware.data.tags %}
+      <li>{{ itemTags }}</li>
+    {% endfor %}
+
+    </ul>
+    <hr></li>
+  {% endfor %}
+{% endblock listItems %}
+
+{% extends "blocks/list.njk" %}

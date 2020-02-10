@@ -7,3 +7,13 @@ body {
   background-color: $color-darkest-gray;
   color: $color-white;
 }
+
+a {
+  color: #9f9;
+  text-decoration: none;
+
+  &:hover {
+    background: #9f9;
+    color: #000;
+  }
+}

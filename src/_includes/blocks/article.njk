@@ -1,0 +1,13 @@
+-- THIS IS POST.NJK --
+
+<h2>{{ title }}</h1>
+<hr>
+<h5>{{ description }}</h5>
+<hr>
+<ul>
+  {% for itemTags in tags %}
+  <li>{{ itemTags }}</li>
+  {% endfor %}
+</ul>
+
+{% block article %}{% endblock article %}

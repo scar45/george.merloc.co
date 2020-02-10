@@ -1,0 +1,8 @@
+<nav>
+	<em>&raquo; See <a href="https://www.11ty.dev/docs/plugins/navigation/" rel="external">this link</a> for nav plugin method</em>
+	<ul>
+		{% for navItem in nav %}
+		<li><a href="{{ navItem.url }}">{{ navItem.text}}</a></li>
+		{% endfor %}
+	</ul>
+</nav>

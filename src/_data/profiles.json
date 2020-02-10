@@ -1,0 +1,58 @@
+[
+  {
+		"title": "Github",
+		"username": "/scar45",
+		"imageExt": "logo-github.png",
+		"url": "https://github.com/scar45"
+	},{
+		"title": "Codepen",
+		"username": "/scar45",
+		"imageExt": "logo-codepen.png",
+		"url": "https://codepen.io/scar45"
+	},{
+		"title": "StackExchange",
+		"username": "/users/2528742/scar45",
+		"imageExt": "logo-stackexchange.png",
+		"url": "https://stackexchange.com/users/2528742/scar45?tab=accounts"
+	},{
+		"title": "Play Store",
+		"username": "/store/apps/developer?id=scar45",
+		"imageExt": "logo-playstore.png",
+		"url": "https://play.google.com/store/apps/developer?id=scar45"
+	},{
+		"title": "Keybase",
+		"username": "/scar45",
+		"imageExt": "logo-keybase.png",
+		"url": "https://keybase.io/scar45"
+	},{
+		"title": "Reddit",
+		"username": "/user/scarfortyfive",
+		"imageExt": "logo-reddit.jpg",
+		"url": "https://reddit.com/user/scarfortyfive"
+	},{
+		"title": "Hacker News",
+		"username": "/user?id=scar45",
+		"imageExt": "logo-hackernews.jpg",
+		"url": "https://news.ycombinator.com/user?id=scar45"
+	},{
+		"title": "Twitter",
+		"username": "/scar45",
+		"imageExt": "logo-twitter.jpg",
+		"url": "https://twitter.com/scar45"
+	},{
+		"title": "SoundCloud",
+		"username": "/scar45",
+		"imageExt": "logo-soundcloud.png",
+		"url": "https://soundcloud.com/scar45"
+	},{
+		"title": "last.fm",
+		"username": "/user/scar45",
+		"imageExt": "logo-lastfm.png",
+		"url": "https://www.last.fm/user/scar45"
+	},{
+		"title": "MixCloud",
+		"username": "/scar45",
+		"imageExt": "logo-mixcloud.png",
+		"url": "https://www.mixcloud.com/scar45"
+	}
+]

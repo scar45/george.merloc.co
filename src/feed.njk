@@ -1,0 +1,25 @@
+---
+eleventyExcludeFromCollections: true
+permalink: feed.xml
+metadata:
+  author:
+    email: george@merloc.co
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ site.title }}</title>
+  <subtitle>{{ site.description }}</subtitle>
+  <link href="{{ site.url + page.url }}" rel="self"/>
+  <link href="{{ site.url }}"/>
+  <updated>{{ collections.all }}</updated>
+  <id>{{ site.url }}</id>
+  {%- for post in collections.all %}
+  <entry>
+    <title>{{ post.title }}</title>
+    <link href="{{ site.url + post.url }}"/>
+    <updated>{{ post.date }}</updated>
+    <id>{{ post.url }}</id>
+    <content type="html">{{ post }}</content>
+  </entry>
+  {%- endfor %}
+</feed>
