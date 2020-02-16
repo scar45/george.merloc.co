@@ -1,0 +1,37 @@
+// _colors.scss
+// Contains declarations for commonly-used colours, fonts, etc.
+
+$color-white: #fff;
+$color-white-dark: #e3e3e3;
+$color-grey: #777;
+$color-grey-light: #aaa;
+$color-grey-lighter: #ccc;
+$color-grey-dark: #444;
+$color-grey-darker: #222;
+$color-black: #000;
+
+$color-red: #FF0000;
+
+$color-amber: #FFAF65;
+$color-amber-hover: #FF8700;
+$color-amber-dark: #c15b00;
+$color-amber-text-glow: rgba(255, 175, 101, 0.33);
+$color-amber-crt-glow: rgba(255, 135, 0, 0.15);
+$color-amber-btn-theme-glow: rgba(255, 135, 0, 0.66);
+
+$color-green: #AFFF65;
+$color-green-hover: #87FF00;
+$color-green-dark: #5BC100;
+$color-green-text-glow: rgba(175, 255, 101, 0.33);
+$color-green-crt-glow: rgba(135, 255, 0, 0.15);
+$color-green-btn-theme-glow: rgba(0,255,0,0.5);
+
+// Breakpoints
+
+$bp-tablet: 768px;
+$bp-tablet-l: 992px;
+$bp-desktop: 1500px;
+$bp-desktop-l: 1920px;
+$bp-desktop-uw: 2400px;
+
+$nav-margin: 230px;

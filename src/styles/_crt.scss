@@ -1,0 +1,150 @@
+
+$screen-background:#121010;
+
+@keyframes flicker{
+  $steps:20;
+  @for $i from 0 through $steps{
+    #{percentage($i*(1/$steps))}{
+      opacity:random();
+    }
+  }
+}
+
+.container{
+  position:relative;
+  overflow:hidden;
+}
+
+.crt-frame {
+  pointer-events: none;
+  z-index: 9000;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: fade_to_black 2s linear;
+  animation-fill-mode: forwards;
+  display: none;
+}
+
+@media (min-width: $bp-tablet) {
+  .crt-frame {
+    display: block;
+  }
+}
+
+.crt-effects {
+  background: url(../images/dirt-mask.png) no-repeat;
+  background-size: cover;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: -64px;
+  right: 0;
+  overflow: hidden; // only to animate the unique scanline
+}
+
+.crt-frame-green {
+  display: none;
+}
+
+@keyframes turn-on{
+  0%{
+    transform-origin: left -15%;
+    transform:scale(1,0.8) translate3d(0,0,0);
+    opacity:1;
+  }
+  3.5%{
+    transform:scale(1,0.8) translate3d(0,0,0);
+  }
+
+  3.6%{
+    transform:scale(1,0.8) translate3d(0,0,0);
+    opacity:1;
+  }
+
+  9%{
+    transform:scale(1.3,0.9) translate3d(0,0,0);
+    opacity:0;
+  }
+
+  11%{
+//    transform:scale(1,1) translate3d(0,-0.5%,0);
+    transform:scale(1,1.1) translate3d(0,-1%,0);
+    opacity:1;
+  }
+
+  66%{
+    transform:scale(1,0.9) translate3d(0,-2%,0);
+  }
+
+  100%{
+    animation-timing-function: $ease-out-quint;
+    transform:scale(1,1) translate3d(0,0,0);
+  }
+}
+@keyframes turn-off{
+  0%{
+    transform-origin: right 25%;
+    transform:scale(1,1.3) translate3d(0,0,0);
+    opacity:1;
+  }
+  60%{
+    transform-origin: center 50%;
+    transform:scale(1.3,0.501) translate3d(0,0,0);
+  }
+  100%{
+    animation-timing-function: $ease-in-quint;
+    transform-origin: left 25%;
+    transform:scale(0,0) translate3d(0,0,0);
+    opacity:0;
+  }
+}
+
+.terminal-content{
+  width:100%;
+  height:100%;
+  border:none;
+}
+
+@keyframes overlay-anim{
+  0%{
+    visibility:hidden;
+  }
+  20%{
+    visibility:hidden;
+  }
+  21%{
+    visibility:visible;
+  }
+  99%{
+    visibility:hidden;
+  }
+}
+
+.overlay{
+  color:#00FF00;
+  position:fixed;
+  top:60px;
+  left:80px;
+  font-size:60px;
+  //text-shadow:2px 2px black,-2px -2px black, -2px 2px black, 2px -2px black;
+  visibility:hidden;
+  pointer-events:none;
+}
+
+@media (min-width: $bp-desktop-l) {
+  .overlay{
+    left:120px;
+  }
+}
+
+@media (max-width: $bp-tablet) {
+  .overlay{
+    display: none;
+  }
+}

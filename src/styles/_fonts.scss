@@ -1,0 +1,11 @@
+// _fonts.scss
+// Contains all webfont definitions
+
+@font-face {
+	font-family: 'VT220';
+	src: url('/fonts/vt220-mod-webfont.woff2') format('woff2'),
+			 url('/fonts/vt220-mod-webfont.woff') format('woff'),
+			 url('/fonts/vt220-mod-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}

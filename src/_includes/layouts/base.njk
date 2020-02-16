@@ -12,32 +12,86 @@
 </head>
 
 <body id="top" itemscope itemtype="http://schema.org/WebPage">
-<a href="/" style="
-  color: #9f9;
-  text-decoration: none;
-"><pre class="title" style="display: inline-block">                                           _       /scar45
+
+<input type="checkbox" id="switch" checked>
+<input type="checkbox" id="flicker">
+<input type="checkbox" id="greenTheme">
+
+<div class="switch-wires"></div>
+<div class="switch-mount">
+    <div class="switch-dirt"></div>
+    <div class="power-label btn-scanlines" title="Toggle Scanlines/Flicker"></div>
+    <div class="theme-button amber" title="Toggle CRT phosphor color"></div>
+    <div id="switch-wrap" class="surround on">
+        <div class="switch" title="Toggle CRT power">
+            <div class="button"></div>
+            <div class="button-face">
+                <div class="shadow"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<img class="crt-frame crt-frame-amber" src="/images/crt_amber_mask.png"/>
+<img class="crt-frame crt-frame-green" src="/images/crt_green_mask.png"/>
+
+<div class="crt-effects scanlines"></div>
+
+<div class="wrapper container">
+    <audio id="snd_power_on" src="/audio/power_on.mp3" autoplay="false" preload="auto">
+        Your browser does not support the <code>audio</code> element.
+    </audio>
+    <audio id="snd_power_off"  src="/audio/power_off.mp3" autoplay="false" preload="auto">
+        Your browser does not support the <code>audio</code> element.
+    </audio>
+    <div class="terminal-content">
+      <header>
+        <a href="/">
+<pre class="title" style="display: inline-block">                                           _       /scar45
  __ _ ___ ___ _ _ __ _ ___   _ __  ___ _ _| |___  /_   __ ___
 / _` / -_) _ \ '_/ _` / -_)_| '  \/ -_) '_| / _ \/ _|_/ _/ _ \
 \__, \___\___/_| \__, \___(_)_|_|_\___|_| |_\___/\__(_)__\___/
 |___/            |___/                                      /
                                pushing pixels to perfection/
-</pre></a>
+</pre>
+        </a>
+      </header>
+
+  <hr>
+  <hr>
   <hr>
   {% include "partials/nav.njk" %}
   <hr>
   <br>
   <br>
-  -- CONTENT SAFE --
+  <h1>Content Safe Area (also H1 Title)</h1>
+  <h2>H2 Title</h2>
+  <h3>H3 Title</h3>
   <br>
   <br>
   {{ content | safe }}
   <br>
-  -- END CONTENT SAFE --
+<pre>
+▓▒░
+#>  END Content Safe Area (also H1 Title)
+##>
+###>
+</pre>
   <br>
   <br>
-  {% for profile in profiles %}
-  <a href="{{ profile.url }}" target="_blank">{{ profile.title }}</a> //
-  {% endfor %}
+        <footer>
+          <hr>
+          {% for profile in profiles %}
+          <a href="{{ profile.url }}" target="_blank">{{ profile.title }}</a> //
+          {% endfor %}
+          <hr>
+          <p>Made with &lt;3 by <a href="https://scar45.me" target="_blank">George Merlocco (scar45)</a> // <a href="https://github.com/scar45/retro-crt-startpage" target="_blank">source on Github</a></p>
+        </footer>
+    </div><!-- end .terminal-content -->
+    <div class="overlay">SERIAL</div>
+</div><!-- end .wrapper -->
+
 
   <script src="/scripts/index.js"></script>
 </body>
