@@ -1,0 +1,10 @@
+---
+layout: layouts/base.njk
+title: Personal site of George Merlocco
+---
+
+<ul>
+{% for design in design %}
+	<li><a href="{{ design.url }}" target="_blank">{{ design.title }}</a><br></li>
+{% endfor %}
+</ul>

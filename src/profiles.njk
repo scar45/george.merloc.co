@@ -1,0 +1,10 @@
+---
+layout: layouts/base.njk
+title: Personal site of George Merlocco
+---
+
+<ul>
+{% for profile in profiles %}
+	<li><a href="{{ profile.url }}" target="_blank">{{ profile.title }} [ {{ profile.username }} ]</a></li>
+{% endfor %}
+</ul>
