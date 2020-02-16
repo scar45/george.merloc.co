@@ -1,0 +1,240 @@
+[
+	{
+		"title": "Airdex Corporation",
+		"year": "2008",
+		"devlength": "1.2 years",
+		"imageExt": "airdex.jpg",
+		"url": "http://airdexcorp.com",
+		"type": "website"
+	},{
+		"title": "AndroXfer",
+		"year": "2013",
+		"devlength": "1 month",
+		"imageExt": "androxfer.jpg",
+		"url": "androxfer.in",
+		"type": "website"
+	},{
+		"title": "AOKP",
+		"year": "2013",
+		"devlength": "5 months",
+		"imageExt": "aokp.jpg",
+		"url": "http://aokp.co",
+		"type": "website"
+	},{
+		"title": "Aqualibrium",
+		"year": "2013",
+		"devlength": "4 months",
+		"imageExt": "aqualibrium.jpg",
+		"type": "website"
+	},{
+		"title": "Canadian Food Safety Alliance",
+		"year": "2012",
+		"devlength": "3 months",
+		"imageExt": "cfsa.jpg",
+		"offline": 1,
+		"url": "https://web.archive.org/web/20130622010349/http://canadianfoodsafetyalliance.ca:80",
+		"type": "website"
+	},{
+		"title": "Christina's Creations",
+		"year": "2010",
+		"devlength": "2 months",
+		"imageExt": "christinas-creations.jpg",
+		"offline": 1,
+		"url": "https://web.archive.org/web/20130531020259/http://christinascreations.ca",
+		"type": "website"
+	},{
+		"title": "CIP Group",
+		"year": "2008",
+		"devlength": "7 months",
+		"imageExt": "cip-group.jpg",
+		"offline": 1,
+		"url": "https://web.archive.org/web/20100317114841/http://www.cipgroup.com:80",
+		"type": "website"
+	},{
+		"title": "Classic Shepherd",
+		"year": "2009",
+		"devlength": "1 month",
+		"imageExt": "classic-shepherd.jpg",
+		"offline": 1,
+		"url": "https://web.archive.org/web/20091010033923/http://classicshepherd.com/",
+		"type": "website"
+	},{
+		"title": "cryptoGlance",
+		"year": "2013",
+		"devlength": "3 months",
+		"imageExt": "cryptoglance.jpg",
+		"url": "http://cryptoglance.info/",
+		"type": "application"
+	},{
+		"title": "David Roberts Fine Foods",
+		"year": "2009",
+		"devlength": "4 months",
+		"imageExt": "david-roberts.jpg",
+		"type": "website"
+	},{
+		"title": "Delta Contracting",
+		"year": "2013",
+		"devlength": "2 weeks",
+		"imageExt": "delta-contracting.jpg",
+		"type": "website"
+	},{
+		"title": "Electric Effect",
+		"year": "2009",
+		"devlength": "1 month",
+		"imageExt": "electric-effect.jpg",
+		"type": "web template"
+	},{
+		"title": "FGS Accountants",
+		"year": "2014",
+		"devlength": "3 months",
+		"imageExt": "fgs-accountants.jpg",
+		"url": "http://fgsaccountants.com/",
+		"type": "website"
+	},{
+		"title": "hostedWithGeeks",
+		"year": "2012",
+		"devlength": "8 months",
+		"imageExt": "hosted-with-geeks.jpg",
+		"offline": 1,
+		"url": "https://web.archive.org/web/20130417093646/http://www.hostedwithgeeks.com:80",
+		"type": "website"
+	},{
+		"title": "IPACS Law Office",
+		"year": "2014",
+		"devlength": "4 months",
+		"imageExt": "ipacs-law-office.jpg",
+		"url": "https://web.archive.org/web/20140112044845/http://ipacslaw.com/",
+		"type": "website"
+	},{
+		"title": "Listed For LESS",
+		"year": "2013",
+		"devlength": "7 months",
+		"imageExt": "listed-for-less.jpg",
+		"offline": 1,
+		"url": "https://web.archive.org/web/20150801234929/http://listedforless.com/",
+		"type": "website"
+	},{
+		"title": "Meridion Group",
+		"year": "2016",
+		"devlength": "3 months",
+		"imageExt": "meridion.jpg",
+		"offline": 1,
+		"url": "https://web.archive.org/web/20180324054716/http://meridion.ca",
+		"type": "website"
+	},{
+		"title": "MG Forensics",
+		"year": "2007",
+		"devlength": "4 months",
+		"imageExt": "mg-forensics.jpg",
+		"offline": 1,
+		"url": "https://web.archive.org/web/20071125153224/http://www.mgforensics.com:80/",
+		"type": "website"
+	},{
+		"title": "Mountain Beauty",
+		"year": "2013",
+		"devlength": "3 months",
+		"imageExt": "mountain-beauty.jpg",
+		"offline": 1,
+		"url": "https://web.archive.org/web/20140803121836/http://www.mountainbeautyesthetics.com/",
+		"type": "website"
+	},{
+		"title": "Pawtopia Dog Grooming",
+		"year": "2011",
+		"devlength": "1 month",
+		"imageExt": "pawtopia.jpg",
+		"url": "http://pawtopiagrooming.com/",
+		"type": "website"
+	},{
+		"title": "Plug In To Christ",
+		"year": "2009",
+		"devlength": "6 months",
+		"imageExt": "plug-in-to-christ.jpg",
+		"offline": 1,
+		"url": "https://web.archive.org/web/20100327200117/http://www.plugintochrist.ca:80/",
+		"type": "website"
+	},{
+		"title": "PureGrainAudio",
+		"year": "2008",
+		"devlength": "1.5 years",
+		"imageExt": "puregrainaudio.jpg",
+		"url": "https://web.archive.org/web/20150510032644/http://puregrainaudio.com:80/",
+		"type": "website"
+	},{
+		"title": "Race Haven Hobbies",
+		"year": "2008",
+		"devlength": "3 days",
+		"imageExt": "race-haven-hobbies.jpg",
+		"url": "http://racehavenhobbies.com",
+		"type": "website"
+	},{
+		"title": "Redemptorists",
+		"year": "2011",
+		"devlength": "5 months",
+		"imageExt": "redemptorists.jpg",
+		"url": "https://web.archive.org/web/20180804012447/http://redemptorists.ca/",
+		"type": "website"
+	},{
+		"title": "Responsive Pivot",
+		"year": "2017",
+		"devlength": "2 days",
+		"imageExt": "responsive-pivot.jpg",
+		"url": "https://github.com/scar45/ResponsivePivot",
+		"type": "template"
+	},{
+		"title": "Retro CRT Startpage",
+		"year": "2017",
+		"devlength": "2 weeks",
+		"imageExt": "retro-crt-startpage.jpg",
+		"url": "https://github.com/scar45/retro-crt-startpage",
+		"type": "template"
+	},{
+		"title": "Roots of Health",
+		"year": "2015",
+		"devlength": "3 months",
+		"imageExt": "roots-of-health.jpg",
+		"url": "http://rootsofhealthnutrition.com",
+		"type": "website"
+	},{
+		"title": "Secrets of Tuscany",
+		"year": "2013",
+		"devlength": "4 months",
+		"imageExt": "secrets-of-tuscany.jpg",
+		"url": "http://secretsoftuscany.com/",
+		"type": "website"
+	},{
+		"title": "SHOCK Dance Challenge",
+		"year": "2013",
+		"devlength": "2 months",
+		"imageExt": "shock-dance-challenge.jpg",
+		"url": "https://web.archive.org/web/20180331013607/http://www.shockdancechallenge.com/",
+		"type": "website"
+	},{
+		"title": "SimilarStory",
+		"year": "2011",
+		"devlength": "7 months",
+		"imageExt": "similarstory.jpg",
+		"type": "website"
+	},{
+		"title": "Stone Canyon",
+		"year": "2013",
+		"devlength": "2 months",
+		"imageExt": "stone-canyon.jpg",
+		"offline": 1,
+		"url": "https://web.archive.org/web/20150926185925/http://stonecanyon.ca/",
+		"type": "website"
+	},{
+		"title": "The Pump House",
+		"year": "2010",
+		"devlength": "2 months",
+		"imageExt": "the-pump-house.jpg",
+		"url": "https://web.archive.org/web/20100615061121/http://www.onestop-pumpshop.ca",
+		"type": "website"
+	},{
+		"title": "Watts School of Dance",
+		"year": "2009",
+		"devlength": "4 months",
+		"imageExt": "watts-school-of-dance.jpg",
+		"url": "https://web.archive.org/web/20180513133311/http://www.wattsschoolofdance.com/",
+		"type": "website"
+	}
+]
